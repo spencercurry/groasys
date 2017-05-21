@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <p>I'm the controller component</p>
 </head>
 <body>
-
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>I'm inside the controller component</p>
+      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+        <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Controller</th>
+          <th>Power</th>
+          <th>Adjust</th>
+          <th>Start</th>
+          <th>Stop</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Lights</td>
+          <td><label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+            <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+            <span class="mdl-switch__label"></span>
+          </label></td>
+          <td><!-- Default Slider -->
+          <input class="mdl-slider mdl-js-slider" id="lights" type="range"
+                   min="0" max="100" value="50" tabindex="0"></td>
+          <td>06:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Fan</td>
+          <td><label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+            <input type="checkbox" id="switch-2" class="mdl-switch__input">
+            <span class="mdl-switch__label"></span>
+          </label></td>
+          <td></td>
+          <td>10:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Water Pump</td>
+          <td><label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-3">
+            <input type="checkbox" id="switch-3" class="mdl-switch__input" checked>
+            <span class="mdl-switch__label"></span>
+          </label></td>
+          <td></td>
+          <td>10:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Air Pump</td>
+          <td><label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-4">
+            <input type="checkbox" id="switch-4" class="mdl-switch__input">
+            <span class="mdl-switch__label"></span>
+          </label></td>
+          <td></td>
+          <td>10:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Water Heater</td>
+          <td><label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-5">
+            <input type="checkbox" id="switch-5" class="mdl-switch__input" checked>
+            <span class="mdl-switch__label"></span>
+          </label></td>
+          <td><!-- Numeric Textfield with Floating Label -->
+          <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+                <label class="mdl-textfield__label" for="sample4">Number...</label>
+                <span class="mdl-textfield__error">Input is not a number!</span>
+              </div>
+            </form></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 </body>
 </html>
+

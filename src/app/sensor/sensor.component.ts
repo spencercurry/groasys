@@ -8,6 +8,5 @@ import { Component } from '@angular/core';
   templateUrl: './sensor.component.html',
   styleUrls: ['./sensor.component.css']
 })
-export class AppComponent {
-  title = 'sensor app works!';
+export class SensorComponent {
 }

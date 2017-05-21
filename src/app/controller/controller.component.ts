@@ -8,6 +8,5 @@ import { Component } from '@angular/core';
   templateUrl: './controller.component.html',
   styleUrls: ['./controller.component.css']
 })
-export class AppComponent {
-  title = 'controller app works!';
+export class ControllerComponent {
 }

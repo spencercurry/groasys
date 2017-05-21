@@ -3,13 +3,113 @@
 <head>
   <meta charset="utf-8">
   <title>GroasysTest</title>
-  <h1>{{ title }}</h1>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <base href="/">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root>Loading...</app-root>
+<div>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header">
+      <div class="mdl-layout-icon"></div>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">Trifecta Groasys</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="#">Dashboard</a>
+          <a class="mdl-navigation__link" href="#">Sensors</a>
+          <a class="mdl-navigation__link" href="#">Controllers</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout__title">Trifecta Groasys</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#">Dashboard</a>
+        <a class="mdl-navigation__link" href="#">Sensors</a>
+        <a class="mdl-navigation__link" href="#">Controllers</a>
+        <hr>
+        <a class="mdl-navigation__link" href="#">Add Fish Feeding</a>
+        <a class="mdl-navigation__link" href="#">Add Manual Test</a>
+        <a class="mdl-navigation__link" href="#">Nitrate</a>
+        <a class="mdl-navigation__link" href="#">Dissolved Oxygen</a>
+        <a class="mdl-navigation__link" href="#">pH</a>
+        <a class="mdl-navigation__link" href="#">Water Temp</a>
+        <hr>
+        <a class="mdl-navigation__link" href="#">Add New Recipe</a>
+        <a class="mdl-navigation__link" href="#">Leafy Greens</a>
+        <a class="mdl-navigation__link" href="#">Hot Crops</a>
+        <a class="mdl-navigation__link" href="#">Fruiting Vine</a>
+        <a class="mdl-navigation__link" href="#">Schedule 4</a>
+        <hr>
+        <a class="mdl-navigation__link" href="#">Settings</a>
+        <a class="mdl-navigation__link" href="#">Help & Feedback</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content"></main>
+    <app-root>Loading...</app-root>
+    <hr>
+    <footer class="mdl-mega-footer">
+      <div class="mdl-mega-footer__middle-section">
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Features</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Updates</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Details</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">Specs</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">Technology</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Patterns</a></li>
+            <li><a href="#">Usage</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contracts</a></li>
+          </ul>
+        </div>
+
+        <div class="mdl-mega-footer__drop-down-section">
+          <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+          <h1 class="mdl-mega-footer__heading">FAQ</h1>
+          <ul class="mdl-mega-footer__link-list">
+            <li><a href="#">Questions</a></li>
+            <li><a href="#">Answers</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mdl-mega-footer__bottom-section">
+        <div class="mdl-logo">Title</div>
+        <ul class="mdl-mega-footer__link-list">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
 </body>
 </html>
